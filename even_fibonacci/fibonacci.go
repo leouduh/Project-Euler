@@ -5,9 +5,7 @@ import (
 )
 
 func even_fibonacci(end_point int) ([]int, int) {
-	x := 1
-	y := 2
-	sum := 0
+	x, y, sum := 1, 2, 0
 	arr := []int{x}
 	for y < end_point {
 		arr = append(arr, y)
